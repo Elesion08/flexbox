@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    /*Deixar os itens flexiveis em suas posiç*/
+    display: flex;
+    background-color: black;
+    gap: 10px;
+}
+
+.box {
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 60px;
+}
