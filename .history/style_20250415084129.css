@@ -60,8 +60,7 @@
   }
   
   .container__card3 {
-    /* alinha os elementos filhos verticalmente */
-    align-items: center;
+    /**/
     /* deixa os itens e suas posições flexiveis */
     display: flex;
     /* centraliza os elementos filhos horizontalmente */
@@ -157,31 +156,3 @@
       /* altura */
       width: 60px;
     }
-
-    .container__card7 {
-        /* deixa os itens e suas posições flexiveis */
-        display: flex;
-        /* Muda a direção de alinhamento dos itens para culuna */
-        flex-direction: column;
-        /* espalha os elementos filho verticalmente (por causa do flex-direction) */
-        justify-content: space-between;
-        /* espalha os elementos filhos para o canto direito (por causa do flex-direction)*/
-        align-items: flex-end;
-        /* Cor de fundo */
-        background-color: black;
-        /* distância entre os elementos filhos */
-        gap: 10px;
-        /* altura do elemento */
-        height: 200px;
-      }
-      
-      .box7 {
-        /* cor da fonte */
-        color: white;
-        /* cor de fundo */
-        background-color: blue;
-        /* altura */
-        height: 40px;
-        /* largura */
-        width: 60px;
-      }

@@ -161,13 +161,11 @@
     .container__card7 {
         /* deixa os itens e suas posições flexiveis */
         display: flex;
-        /* Muda a direção de alinhamento dos itens para culuna */
+        /* Muda a direção de alinhamento dos itens em colunas */
         flex-direction: column;
         /* espalha os elementos filho verticalmente (por causa do flex-direction) */
         justify-content: space-between;
-        /* espalha os elementos filhos para o canto direito (por causa do flex-direction)*/
-        align-items: flex-end;
-        /* Cor de fundo */
+        /* centraliza os elementos filhos verticalmente */
         background-color: black;
         /* distância entre os elementos filhos */
         gap: 10px;
